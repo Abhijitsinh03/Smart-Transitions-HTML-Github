@@ -441,6 +441,19 @@ span.document:before,
 }
 
 //Quiz -30 end
+// Quiz - 36 Start
+.grid-row.full-screen.quiz-36-getting-real {
+    .content {
+        .red-text {
+            p {
+                color: red;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+// Quiz - 36 end
 .grid-col-6 {
     &:nth-child(2) {
         -ms-grid-column: 2;

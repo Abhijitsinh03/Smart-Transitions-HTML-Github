@@ -1,0 +1,253 @@
+@import 'variables';
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.slides-navigation {
+	display: block;
+	padding-top: $padding-30;
+	text-align: center;
+}
+.prev, .next {
+	display: inline-block;
+  cursor: pointer;
+  position: static;
+  top: 50%;
+  width: auto;
+  color: white;
+  font-family: $bold-font;
+  font-size: $font-24;
+  transition: 0.6s ease;
+  background-color: #0d3971;
+  text-align: center;
+  user-select: none;
+}
+.slideshow-container a.prev, .slideshow-container a.next {
+	color: #fff;
+}
+.next {
+  right: 0;
+}
+.prev:hover, .next:hover {
+  background-color: #4b77c5;
+}
+.dot {
+  cursor: pointer;
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin: 0 0.125rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+header.guided-tour {
+	padding-top: 6.25rem;
+	padding-bottom: 0;
+}
+.guided-tour {
+	h2, h1 {
+		display: $d-inline;
+		font-family: $bold-font;
+		font-size: $font-32;
+	}
+	.exit-tutorial {
+		float: right;
+		margin: 0.5rem $margin-zero;
+		font-family: $bold-font;
+		font-size: $font-16;
+		color: #0d3971;
+	}
+	h3 {
+		font-family: $bold-font;
+		font-size: $font-24;
+	}
+	.grid-row {
+		margin: $margin-zero -1.875rem;
+		-ms-grid-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		[class*="grid-col-"] {
+			padding: $padding-zero $padding-30;
+			margin-bottom: $margin-30;
+		}
+	}
+	.btn-wrap {
+		padding-top: $padding-30;
+		text-align: center;
+		.btn {
+			min-width: 280px;
+			padding: 12px 15px;
+			font-family: $bold-font;
+			font-size: $font-24;
+		}
+	}
+}
+header.guided-tour + .guided-tour {
+	padding-top: 0;
+}
+p {
+	font-size: $font-15;
+	line-height: 26px;
+}
+
+@media screen and (max-width: 99.9375rem) {}
+@media screen and (max-width: 74.9375rem) {
+	.slides-navigation {
+		.prev, .next {
+			font-size: 1.25rem;
+		}
+	}
+}
+
+@media screen and (max-width: 64rem) and (min-width: 61.9375rem) {
+	header {
+		&.guided-tour {
+			padding-left: $padding-zero;
+			padding-right: $padding-zero;
+		}
+	}
+}
+
+@media screen and (max-width: 64rem) {
+	.guided-tour {
+		.grid-row {
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+			[class*="grid-col-"] {
+				padding: $padding-zero $padding-15;
+				margin-bottom: $margin-20;
+				&:nth-child(2) {
+					-ms-grid-column: 1;
+					grid-column: 1;
+					-ms-grid-row: 2;
+					grid-row: 2;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 61.9375rem) {
+	.guided-tour {
+		.grid-row {
+			margin: $margin-zero -0.9375rem;
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+			[class*="grid-col-"] {
+				padding: $padding-zero $padding-15;
+				margin-bottom: $margin-20;
+				&:nth-child(2) {
+					-ms-grid-column: 1;
+					grid-column: 1;
+					-ms-grid-row: 2;
+					grid-row: 2;
+				}
+			}
+		}
+		h3 {
+			font-size: $font-22;
+		}
+		.btn-wrap {
+			.btn {
+				min-width: 200px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 47.9375rem) {
+	.slides-navigation {
+		padding-top: $padding-zero;
+	}
+	header.guided-tour {
+		padding-top: $padding-50;
+	}
+	.guided-tour {
+		h2, h1 {
+			font-size: $font-28;
+		}
+		.exit-tutorial {
+			margin: 0.3125rem $margin-zero;
+			font-size: $font-15;
+		}
+		.btn-wrap {
+			padding-top: $padding-15;
+			.btn {
+				min-width: 145px;
+				padding: 0.5rem 0.625rem;
+				font-size: $font-20;
+			}
+		}
+	}
+}
+@media screen and (max-width: 35.9375rem) {
+	.guided-tour {
+		h2, h1 {
+			font-size: $font-24;
+		}
+		h3 {
+			margin-bottom: 0;
+			font-size: $font-18;
+		}
+		.btn-wrap {
+			.btn {
+				font-size: $font-16;
+			}
+		}
+	}
+	.slides-navigation {
+		.prev, .next {
+			font-size: $font-16;
+		}
+	}
+}
+@media screen and (max-width: 29.9375rem) {
+	.guided-tour {
+		h2, h1 {
+			font-size: $font-22;
+		}
+		h3 {
+			font-size: $font-16;
+		}
+		.exit-tutorial {
+			margin: 0.125rem $margin-zero;
+		}
+		.btn-wrap {
+			padding-top: $padding-zero;
+			.btn {
+				width: 100%;
+				margin: 0.4375rem 0;
+			}
+		}
+	}
+}
+@media screen and (max-width: 22.5rem) {
+	.guided-tour h2, .guided-tour h1 {
+		font-size: $font-20;
+		
+	}
+}

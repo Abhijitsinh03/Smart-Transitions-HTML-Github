@@ -1,0 +1,125 @@
+@import 'variables';
+
+.login #main, .login article {
+	height: $height-full;
+}
+.login .form-wrap {
+	display: table;
+	width: $width-full;
+	height: $height-full;
+}
+.login .form-wrap > .container {
+	display: table-cell;
+	vertical-align: $v-align;
+	width: $width-full;
+	height: $height-full;
+}
+.login {
+	height: 100%;
+	background-color: #f4f3f3; 
+	form {
+		max-width: 311px;
+		padding: $padding-20 $padding-zero;
+		margin: 0 auto;
+		.brand {
+			display: $d-block;
+			margin-bottom: 28px;
+		}
+		.form-group {
+			margin-bottom: 17px;
+			.form-control {
+				height: 3.25rem;
+				padding: 12px;
+				font-family: $light-font;
+				font-size: 1rem;
+				color: #707070;
+				border: 0.0625rem solid #c7c7c7;
+				&:focus {
+					color: $primary-color;
+					border-color: $primary-color;
+				}
+			}
+			.error-msg {
+				display: $d-block;
+				padding-top: $padding-5;
+				font-family: $msemibold-font;
+				font-size: 12px;
+				color: #d1063c;
+			}
+			&.checkbox-wrap {
+				input[type="checkbox"] {
+					&:checked + label:before {
+					  border-color: #0d3971;
+					}
+					&:checked + label:after {
+					  top: 0.375rem;
+					  left: 0.3125rem;
+					}
+				}
+				label {
+					padding-top: $padding-zero;
+					padding-bottom: $padding-zero;
+					font-family: $semi-font;
+					font-size: $font-15;
+					color: #707070;
+					text-transform: none;
+					&:before {
+					  top: 0.0625rem;
+					  border-color: #c7c7c7;
+					}
+				}
+			}
+		}
+		button[type="submit"] {
+			margin-top: $margin-zero;
+			margin-right: $margin-zero;
+			margin-bottom: $margin-15;
+			font-size: 1rem;
+		}
+		.btn {
+			width: $width-full;
+		}
+	}
+}
+#forgot-pass, #create-account {
+	display: $d-inline;
+	font-family: $semi-font;
+	font-size: 12px;
+	color: $theme-color;
+	vertical-align: top;;
+}
+#create-account {
+	float: right;
+}
+#forgot-pass:hover, #create-account:hover {
+	color: $primary-color;
+}
+
+
+@media screen and (max-width: 47.9375rem) {
+	.login {
+		form {
+			.brand {
+				margin-bottom: $margin-15;
+			}
+			.form-group {
+				margin-bottom: 12px;
+				.form-control {
+					height: auto;
+					padding: 9px 12px;
+					font-size: 15px;
+				}
+				&.checkbox-wrap {
+					label {
+						font-size: $font-15;
+					}
+				}
+			}
+			button[type="submit"] {
+				padding: 8px $padding-15;
+				margin-bottom: $margin-15;
+				font-size: $font-15;
+			}
+		}
+	}
+}

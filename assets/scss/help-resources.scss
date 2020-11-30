@@ -1,0 +1,247 @@
+@import 'variables';
+.help-resources {
+	h2 {
+		padding-bottom: $padding-20;
+		margin-bottom: 0;
+		font-family: $bold-font;
+		font-size: $font-32;
+	}
+	p {
+		font-size: $font-16;
+	}
+	.btn {
+		min-width: 145px;
+		padding: 12px 24px;
+		font-family: $bold-font;
+		font-size: $font-20;
+	}
+	.grid-row {
+		-ms-grid-columns: 5fr 7fr;
+		grid-template-columns: 5fr 7fr;
+		margin: $margin-zero -1.875rem;
+		[class*="grid-col-"] {
+			padding: $padding-zero $padding-30;
+			&:nth-child(2) {
+				-ms-grid-column: 2;
+				grid-column: 2;
+				-ms-grid-row: 1;
+				grid-row: 1;
+			}
+			.btn {
+				margin-top: $margin-30;
+			}
+		}
+		&:first-child {
+			.grid-col-5 {
+				p {
+					font-family: $bold-font;
+					color: #0d3971;
+				}
+			}
+		}
+	}
+	.work-apps {
+		padding: 6.25rem $padding-zero;
+		&.grid-row {
+			-ms-grid-columns: 4fr 8fr;
+			grid-template-columns: 4fr 8fr;
+			.grid-row {
+				-ms-grid-columns: 6fr 6fr;
+				grid-template-columns: 6fr 6fr;
+				[class*="grid-col-"] {
+					&:nth-child(2) {
+						-ms-grid-column: 2;
+						grid-column: 2;
+						-ms-grid-row: 1;
+						grid-row: 1;
+					}
+				}
+			}
+		}
+	}
+	.team-member-form {
+		max-width: 50rem;
+		margin: 0 auto;
+	}
+	form {
+		.form-group {
+			textarea {
+				&.form-control {
+					height: 16.25rem;
+				}
+			}
+			.btn {
+				width: inherit;
+			}
+			&:last-child {
+				text-align: right;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 79.3125rem) {
+	.help-resources {
+		.btn {
+			font-size: $font-18;
+		}
+	}
+}
+@media screen and (max-width: 74.9375rem) {
+	.help-resources {
+		h2 {
+			font-size: $font-28;
+		}
+		& > .grid-row {
+			& > .grid-col-7 {
+				.btn {
+					&:last-child {
+						margin-top: $margin-15;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 61.9375rem) {
+	.help-resources {
+		h2 {
+			font-size: $font-24;
+		}
+		p {
+			font-size: $font-15;
+			line-height: 24px;
+		}
+		.grid-row {
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+			margin: $margin-zero -0.9375rem;
+			[class*="grid-col-"] {
+				padding: $padding-zero $padding-15;
+				margin-bottom: $margin-30;
+				&:last-child {
+					margin-bottom: $margin-zero;
+				}
+				&:nth-child(2) {
+					-ms-grid-column: 1;
+					grid-column: 1;
+					-ms-grid-row: 2;
+					grid-row: 2;
+				}
+				.btn {
+					margin-top: $margin-15;
+				}
+			}
+		}
+		.work-apps {
+			padding: $padding-50 $padding-zero;
+			&.grid-row {
+				-ms-grid-columns: 1fr;
+				grid-template-columns: 1fr;
+				.grid-row {
+					-ms-grid-columns: 6fr 6fr;
+					grid-template-columns: 6fr 6fr;
+					[class*="grid-col-"] {
+						margin-bottom: $margin-zero;
+						&:nth-child(2) {
+							-ms-grid-column: 2;
+							grid-column: 2;
+							-ms-grid-row: 1;
+							grid-row: 1;
+						}
+					}
+				}
+			}
+		}
+		.team-member-form {
+			max-width: 100%;
+		}
+		form {
+			.form-group {
+				textarea {
+					&.form-control {
+						height: 15rem;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 47.9375rem) {
+	.help-resources {
+		h2 {
+			padding-bottom: $padding-15;
+			font-size: $font-22;
+		}
+		.btn {
+			min-width: 125px;
+			font-size: $font-16;
+			padding: 8px $padding-20;
+		}
+		.grid-row {
+			[class*="grid-col-"] {
+				margin-bottom: $margin-15;
+				.btn {
+					margin-top: $margin-10;
+				}
+			}
+			&.work-apps {
+				.grid-col-5 {
+					margin-bottom: 30px;
+				}
+			}
+		}
+		& > .grid-row {
+			& > .grid-col-7 {
+				.btn {
+					&:last-child {
+						margin-top: $margin-10;
+					}
+				}
+			}
+		}
+		form {
+			.form-group {
+				textarea {
+					&.form-control {
+						height: 10rem;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 35.9375rem) {
+	.help-resources {
+		h2 {
+			padding-bottom: $padding-10;
+			font-size: $font-20;
+		}
+		.grid-row {
+			[class*="grid-col-"] {
+				.btn {
+					width: 100%;
+					margin-top: $margin-10;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 29.9375rem) {
+	.help-resources {
+		h2 {
+			font-size: $font-18;
+		}
+	}
+}
+@media screen and (max-width: 22.4375rem) {
+	.help-resources {
+		form {
+			.form-group {
+				.btn {
+					margin-right: $margin-zero;
+				}
+			}
+		}
+	}
+}

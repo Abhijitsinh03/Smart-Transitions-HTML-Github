@@ -1,0 +1,195 @@
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto; }
+
+.mySlides {
+  display: none; }
+
+.slides-navigation {
+  display: block;
+  padding-top: 1.875rem;
+  text-align: center; }
+
+.prev, .next {
+  display: inline-block;
+  cursor: pointer;
+  position: static;
+  top: 50%;
+  width: auto;
+  color: white;
+  font-family: "OpenSans-Bold";
+  font-size: 1.5rem;
+  transition: 0.6s ease;
+  background-color: #0d3971;
+  text-align: center;
+  user-select: none; }
+
+.slideshow-container a.prev, .slideshow-container a.next {
+  color: #fff; }
+
+.next {
+  right: 0; }
+
+.prev:hover, .next:hover {
+  background-color: #4b77c5; }
+
+.dot {
+  cursor: pointer;
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin: 0 0.125rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+header.guided-tour {
+  padding-top: 6.25rem;
+  padding-bottom: 0; }
+
+.guided-tour h2, .guided-tour h1 {
+  display: inline-block;
+  font-family: "OpenSans-Bold";
+  font-size: 2rem; }
+
+.guided-tour .exit-tutorial {
+  float: right;
+  margin: 0.5rem 0;
+  font-family: "OpenSans-Bold";
+  font-size: 1rem;
+  color: #0d3971; }
+
+.guided-tour h3 {
+  font-family: "OpenSans-Bold";
+  font-size: 1.5rem; }
+
+.guided-tour .grid-row {
+  margin: 0 -1.875rem;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; }
+  .guided-tour .grid-row [class*="grid-col-"] {
+    padding: 0 1.875rem;
+    margin-bottom: 1.875rem; }
+
+.guided-tour .btn-wrap {
+  padding-top: 1.875rem;
+  text-align: center; }
+  .guided-tour .btn-wrap .btn {
+    min-width: 280px;
+    padding: 12px 15px;
+    font-family: "OpenSans-Bold";
+    font-size: 1.5rem; }
+
+header.guided-tour + .guided-tour {
+  padding-top: 0; }
+
+p {
+  font-size: 0.9375rem;
+  line-height: 26px; }
+
+@media screen and (max-width: 74.9375rem) {
+  .slides-navigation .prev, .slides-navigation .next {
+    font-size: 1.25rem; } }
+
+@media screen and (max-width: 64rem) and (min-width: 61.9375rem) {
+  header.guided-tour {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (max-width: 64rem) {
+  .guided-tour .grid-row {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .guided-tour .grid-row [class*="grid-col-"] {
+      padding: 0 0.9375rem;
+      margin-bottom: 1.25rem; }
+      .guided-tour .grid-row [class*="grid-col-"]:nth-child(2) {
+        -ms-grid-column: 1;
+        grid-column: 1;
+        -ms-grid-row: 2;
+        grid-row: 2; } }
+
+@media screen and (max-width: 61.9375rem) {
+  .guided-tour .grid-row {
+    margin: 0 -0.9375rem;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .guided-tour .grid-row [class*="grid-col-"] {
+      padding: 0 0.9375rem;
+      margin-bottom: 1.25rem; }
+      .guided-tour .grid-row [class*="grid-col-"]:nth-child(2) {
+        -ms-grid-column: 1;
+        grid-column: 1;
+        -ms-grid-row: 2;
+        grid-row: 2; }
+  .guided-tour h3 {
+    font-size: 1.375rem; }
+  .guided-tour .btn-wrap .btn {
+    min-width: 200px; } }
+
+@media screen and (max-width: 47.9375rem) {
+  .slides-navigation {
+    padding-top: 0; }
+  header.guided-tour {
+    padding-top: 3.125rem; }
+  .guided-tour h2, .guided-tour h1 {
+    font-size: 1.75rem; }
+  .guided-tour .exit-tutorial {
+    margin: 0.3125rem 0;
+    font-size: 0.9375rem; }
+  .guided-tour .btn-wrap {
+    padding-top: 0.9375rem; }
+    .guided-tour .btn-wrap .btn {
+      min-width: 145px;
+      padding: 0.5rem 0.625rem;
+      font-size: 1.25rem; } }
+
+@media screen and (max-width: 35.9375rem) {
+  .guided-tour h2, .guided-tour h1 {
+    font-size: 1.5rem; }
+  .guided-tour h3 {
+    margin-bottom: 0;
+    font-size: 1.125rem; }
+  .guided-tour .btn-wrap .btn {
+    font-size: 1rem; }
+  .slides-navigation .prev, .slides-navigation .next {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 29.9375rem) {
+  .guided-tour h2, .guided-tour h1 {
+    font-size: 1.375rem; }
+  .guided-tour h3 {
+    font-size: 1rem; }
+  .guided-tour .exit-tutorial {
+    margin: 0.125rem 0; }
+  .guided-tour .btn-wrap {
+    padding-top: 0; }
+    .guided-tour .btn-wrap .btn {
+      width: 100%;
+      margin: 0.4375rem 0; } }
+
+@media screen and (max-width: 22.5rem) {
+  .guided-tour h2, .guided-tour h1 {
+    font-size: 1.25rem; } }

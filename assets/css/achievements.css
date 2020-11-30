@@ -1,0 +1,138 @@
+.pt-0 {
+  padding-top: 0 !important; }
+
+.mentor-dashboard h2 {
+  padding-bottom: 1.25rem;
+  font-family: "ProximaNova-Semibold";
+  font-size: 24px;
+  color: #333333; }
+
+.mentor-dashboard .grid-row {
+  display: flex;
+  flex-wrap: wrap; }
+  .mentor-dashboard .grid-row .grid-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .mentor-dashboard .grid-row [class*="grid-col-"] {
+    padding: 0 0.9375rem; }
+    .mentor-dashboard .grid-row [class*="grid-col-"]:last-child .mentor-progressbar {
+      margin-bottom: 0; }
+    .mentor-dashboard .grid-row [class*="grid-col-"]:nth-child(2) {
+      -ms-grid-column: 2;
+      grid-column: 2;
+      -ms-grid-row: 1;
+      grid-row: 1; }
+    .mentor-dashboard .grid-row [class*="grid-col-"]:nth-child(3) {
+      -ms-grid-column: 1;
+      grid-column: 1;
+      -ms-grid-row: 2;
+      grid-row: 2; }
+
+.mentor-dashboard .awards img {
+  max-width: 45px; }
+
+.mentor-progressbar {
+  display: block;
+  border: .125rem solid #d1d1d1;
+  margin-bottom: 1.875rem;
+  padding: 2rem;
+  box-shadow: 0 0.1875rem 0.4375rem rgba(0, 0, 0, 0.16); }
+  .mentor-progressbar h3 {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: "ProximaNova-Semibold";
+    font-size: 26px;
+    color: #4e7cbc; }
+  .mentor-progressbar .progressbar-date {
+    float: right;
+    margin-top: 5px;
+    font-family: "ProximaNova-Semibold";
+    font-size: 18px;
+    color: #6e6e6e; }
+  .mentor-progressbar .progress-wrap {
+    display: block; }
+    .mentor-progressbar .progress-wrap span {
+      padding: 0; }
+
+.mentor-notifications {
+  padding-top: 3.75rem;
+  margin-top: 6.25rem;
+  border-top: .125rem solid #d1d1d1; }
+  .mentor-notifications .table-responsive table tr:nth-child(even) {
+    background-color: transparent; }
+  .mentor-notifications .table-responsive table tr:nth-child(odd) {
+    background-color: #f4f3f3; }
+  .mentor-notifications .table-responsive table tr:hover {
+    background-color: #bfcfeb; }
+  .mentor-notifications .table-responsive table tr:first-child:hover {
+    background-color: #bfcfeb; }
+
+@media screen and (max-width: 74.9375rem) {
+  .mentor-progressbar h3 {
+    font-size: 24px; }
+  .mentor-progressbar .progressbar-date {
+    padding-bottom: 0;
+    margin-top: 0.375rem;
+    font-size: 1rem; } }
+
+@media screen and (max-width: 61.9375rem) {
+  .mentor-dashboard .grid-row .grid-col-6 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .mentor-notifications .table-responsive {
+    white-space: inherit;
+    overflow-x: hidden; }
+    .mentor-notifications .table-responsive.custom-scroll {
+      height: 246px;
+      overflow-x: auto !important; } }
+
+@media screen and (max-width: 47.9375rem) {
+  .mentor-notifications {
+    padding-top: 3.125rem;
+    margin-top: 3.125rem; }
+  .mentor-progressbar h3 {
+    font-size: 1.375rem; }
+  .mentor-progressbar {
+    padding: 25px; }
+  .table-responsive.custom-scroll table tr td {
+    padding: 0.625rem; } }
+
+@media screen and (max-width: 35.9375rem) {
+  .mentor-dashboard h2 {
+    font-size: 1.375rem; }
+  .mentor-progressbar {
+    padding: 0.9375rem;
+    margin-bottom: 0.9375rem; }
+    .mentor-progressbar h3 {
+      font-size: 1.25rem; }
+    .mentor-progressbar .progressbar-date {
+      margin-top: 5px; }
+  .mentor-notifications {
+    padding-top: 2.5rem;
+    margin-top: 3.125rem; }
+    .mentor-notifications .custom-scroll {
+      height: 246px; }
+  .progress-wrap {
+    margin: 20px 0; } }
+
+@media screen and (max-width: 24.9375rem) {
+  .mentor-dashboard h2 {
+    padding-bottom: 0.9375rem; }
+  .mentor-progressbar h3 {
+    display: block;
+    padding: 0;
+    margin: 0; }
+  .mentor-progressbar .progressbar-date {
+    float: none;
+    display: block; }
+  .mentor-progressbar .progress-wrap {
+    margin: 1.25rem 0; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .custom-scroll {
+    overflow-x: hidden; }
+  .tab-wrap .tab {
+    position: relative; }
+    .tab-wrap .tab button.active {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); } }

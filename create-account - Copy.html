@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta property="fb:pages" content="1478420168846082"/>
+    <meta name='ir-site-verification-token' content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+    <meta name="format-detection" content="telephone=no">
+    <title>Create Account - Together We Can Foundation &#8211; Smart Transitions</title>
+    <meta name="description" content=""/>
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <link rel="canonical" href="https://twc.tekark.com/html/admin-dashboard.html"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Together We Can Foundation &#8211; Smart Transitions"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://twc.tekark.com/html/admin-dashboard.html"/>
+    <meta property="og:site_name" content="Together We Can Foundation &#8211; Smart Transitions"/>
+    <meta property="og:updated_time" content="2019-09-15T13:55:54+00:00"/>
+    <meta property="article:published_time" content="2016-06-09T13:22:27+00:00"/>
+    <meta property="article:modified_time" content="2019-09-15T13:55:54+00:00"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:width" content="1440"/>
+    <meta property="og:image:height" content="850"/>
+    <meta property="fb:app_id" content="141159446456485"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Together We Can Foundation &#8211; Smart Transitions"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:image" content=""/>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="assets/css/picker-light-pop.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/admin-dashboard.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/developer.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<header class="header" id="fixed-header">
+    <div class="grid-row">
+        <a class="logo" href="home.html" title="Together We Can Foundation" aria-label="Together We Can Foundation">
+            <img src="assets/images/twc.png" alt="Together We Can Foundation &#8211; Smart Transitions"
+                 srcset="assets/images/twc.png 385w, assets/images/twc2.png 250w, assets/images/twc3.png 200w"
+                 sizes="(min-width: 1200px) 385px, (min-width: 768px) 250px, (min-width: 1px) 200px, 100vw">
+        </a>
+        <div class="menu">
+            <button class="navbar-toggler" id="navbarToggler" type="button" data-toggle="collapse"
+                    data-target="#navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-separator"></span>
+            </button>
+            <nav>
+                <div class="mobile-menu-header">
+                    <a class="logo" href="home.html" title="Together We Can Foundation"
+                       aria-label="Together We Can Foundation">
+                        <img src="assets/images/twc3.png" alt="Together We Can Foundation &#8211; Smart Transitions"
+                             srcset="assets/images/twc3.png 200w" sizes="(min-width: 1px) 200px, 100vw">
+                    </a>
+                    <a class="close-icon pull-right" href="javascript:void(0);" aria-label="Close" id="closeIcon"></a>
+                </div>
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="#0">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <article>
+        <section class="create-account container">
+            <h2>Create Account</h2>
+            <form class="style-two">
+                <div class="form-row">
+                    <div class="form-group disabled">
+                        <input type="text" id="AccessCode" class="form-control" placeholder="" aria-label="Access Code">
+                        <label for="AccessCode">Access Code</label>
+                        <span class="error-msg" role="alert">Access code is required</span>
+                    </div>
+                    <div class="form-group blank-group"></div>
+                    <div class="form-group">
+                        <input type="text" id="FirstN" class="form-control" placeholder="" aria-label="First Name">
+                        <label for="FirstN">First Name</label>
+                        <span class="error-msg" role="alert">First name is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="LastN" class="form-control" placeholder="" aria-label="Last Name">
+                        <label for="LastN">Last Name</label>
+                        <span class="error-msg" role="alert">Last name is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="DateofBirth" onclick="datepicker.show();" class="form-control"
+                               placeholder="MM / DD / YYYY" aria-label="Date of Birth">
+                        <label for="DateofBirth">Date of Birth</label>
+                        <span class="error-msg" role="alert">Date of birth is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="Email" class="form-control" placeholder="" aria-label="Email">
+                        <label for="Email">Email</label>
+                        <span class="error-msg" role="alert">Email is required</span>
+                    </div>
+                    <div class="form-group" id="Race">
+                        <select class="form-control">
+                            <option>Select Race</option>
+                            <option>Native Hawaiian or other Pacific Islander</option>
+                            <option>Asian</option>
+                            <option>American Indian or Alaska Native</option>
+                            <option>Black or African American</option>
+                            <option>White</option>
+                        </select>
+                        <label>Race</label>
+                        <span class="error-msg" role="alert">Race is required</span>
+                    </div>
+                    <div class="form-group" id="Gender">
+                        <select class="form-control">
+                            <option>Select one</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                        <label>Gender</label>
+                        <span class="error-msg" role="alert">Gender is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="MobilePhone" class="form-control" placeholder=""
+                               aria-label="Mobile Phone">
+                        <label for="MobilePhone">Mobile Phone</label>
+                        <span class="error-msg" role="alert">Mobile phone is required</span>
+                    </div>
+                    <div class="form-group view-password">
+                        <input type="password" id="Password" class="form-control" placeholder="" aria-label="Password">
+                        <label for="Password">Password</label>
+                        <a href="#0" aria-label="Password icon"></a>
+                        <span class="error-msg" role="alert">Password is required</span>
+                    </div>
+                    <div class="form-group checkbox-wrap">
+                        <input type="checkbox" id="checkbox1" class="form-control" aria-label="Checkbox">
+                        <label for="checkbox1">Opt in for text messaging?</label>
+                    </div>
+                    <div class="form-group blank-group"></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </article>
+</main>
+
+<footer>
+    <p>Powered by <a href="https://gotechark.com/" target="_blank" aria-label="TechArk Solutions"
+                     rel="noopener noreferrer">TechArk Solutions</a></p>
+    <p>© 2019 Together We Can Foundation</p>
+    <ul>
+        <li><a href="#0">Contact Us</a></li>
+        <li><a href="#0">Privacy Policy</a></li>
+        <li><a href="#0">Terms of Service</a></li>
+    </ul>
+</footer>
+
+<div class="back-top" id="backTop">
+    <a href="javascript:void(0);" aria-label="Back to Top"></a>
+</div>
+
+<!--[if lt IE 9]>
+<script src="assets/js/html5.js"></script>
+<script src="assets/js/respond.js"></script>
+<![endif]-->
+<script src="assets/js/datepickk.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script>
+    var datepicker = new Datepickk();
+    datepicker.selectDate(new Date());
+    datepicker.closeOnSelect = true;
+    var selectedDate = 0;
+    let isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+    datepicker.onSelect = function (checked) {
+        var tempDate = selectedDate;
+        var state = (checked) ? 'selected' : 'unselected';
+        selectedDate = this.toLocaleDateString();
+        if (selectedDate != tempDate) {
+            datepicker.unselectAll(true);
+            if (isIE) {
+                var d = selectedDate.split("-"),
+                    month = d[1];
+                day = d[0];
+                year = d[2];
+
+                if (month.length < 2)
+                    month = '0' + month;
+                if (day.length < 2)
+                    day = '0' + day;
+                selectedDate = day + "-" + month + "-" + year;
+            }
+
+            document.getElementById("DateofBirth").value = selectedDate;
+            datepicker.selectDate(selectedDate);
+        }
+
+
+    };
+
+
+    /*datepicker.onClose = function(){
+      datepicker.selectDate(selectedDate);
+    };*/
+</script>
+</body>
+</html>

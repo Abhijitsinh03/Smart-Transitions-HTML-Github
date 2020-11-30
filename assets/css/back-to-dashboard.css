@@ -1,0 +1,598 @@
+.gray-page-title {
+  
+  padding: 2.1875rem 3.125rem;
+  font-family: "ProximaNova-Semibold";
+  font-size: 1rem;
+  color: #707070;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  background-color: #f5f4f4; }
+  .gray-page-title a {
+    color: #0b3773; }
+  .gray-page-title span {
+    float: right; }
+    .gray-page-title span .rounded-btn {
+      min-width: 8.125rem;
+      padding-top: 0.5625rem;
+      padding-bottom: 0.5625rem;
+      margin-top: -0.5rem;
+      margin-left: 1.5625rem;
+      font-family: "ProximaNova-Semibold";
+      font-size: 1.125rem;
+      color: #ffffff;
+      text-transform: none;
+      letter-spacing: 0.0625rem; }
+
+.full-screen {
+  padding: 0; }
+  .full-screen.grid-row {
+    margin: 0;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
+    .full-screen.grid-row .image-block {
+      background-image: url("../images/quiz2-01.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+    .full-screen.grid-row .content {
+      padding: 0.9375rem 2.1875rem 2.1875rem;
+      -ms-grid-column: 2;
+      grid-column: 2;
+      -ms-grid-row: 1;
+      grid-row: 1;
+      position: relative; }
+      .full-screen.grid-row .content.custom-scroll {
+        height: 40.625rem; }
+      .full-screen.grid-row .content .custom-scroll {
+        height: 27.1rem; }
+      .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+        display: block;
+        padding: 0.9375rem 0;
+        font-family: "ProximaNova-Light";
+        font-size: 1.25rem;
+        color: #707070;
+        background-color: #ffffff;
+        z-index: 11; }
+        .full-screen.grid-row .content .book:before, .full-screen.grid-row .content .document:before {
+          display: inline-block;
+          vertical-align: middle;
+          width: 1.625rem;
+          height: 1.75rem;
+          margin-right: 0.625rem;
+          background-position: -2.5rem -1.125rem;
+          content: ""; }
+      .full-screen.grid-row .content .document:before {
+        background-position: 0.25rem -3.0625rem; }
+      .full-screen.grid-row .content h2 {
+        padding-bottom: 1.25rem;
+        margin-bottom: 0;
+        font-family: "OpenSans-Bold";
+        font-size: 2.625rem; }
+      .full-screen.grid-row .content p {
+        font-family: "OpenSans-Light";
+        color: #333333; }
+        .full-screen.grid-row .content p input {
+          width: 18rem;
+          padding: 2px 5px;
+          font-family: "OpenSans-Light";
+          font-size: 1rem;
+          color: #333333;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 2px solid #0d3971; }
+        .full-screen.grid-row .content p a {
+          color: #3197ec;
+          text-decoration: underline; }
+          .full-screen.grid-row .content p a strong {
+            color: #000; }
+      .full-screen.grid-row .content strong {
+        color: #000; }
+      .full-screen.grid-row .content form h3 {
+        margin-top: 1.25rem;
+        margin-bottom: 0;
+        font-size: 1.125rem; }
+      .full-screen.grid-row .content .radio-box {
+        margin-bottom: 1.875rem; }
+        .full-screen.grid-row .content .radio-box > label {
+          display: block;
+          padding: 0.625rem 0;
+          font-family: "Montserrat-SemiBold";
+          font-size: 1rem;
+          color: #707070;
+          text-transform: uppercase;
+          position: relative; }
+        .full-screen.grid-row .content .radio-box .radio-wrap {
+          padding-left: 0;
+          padding-right: 0; }
+          .full-screen.grid-row .content .radio-box .radio-wrap label {
+            padding-left: 2rem;
+            margin-right: 0.625rem; }
+      .full-screen.grid-row .content .radio-buttons {
+        padding-left: 2rem; }
+        .full-screen.grid-row .content .radio-buttons .radio-wrap {
+          display: inline-block;
+          padding-right: 1.5625rem; }
+          .full-screen.grid-row .content .radio-buttons .radio-wrap:last-child {
+            padding-right: 0; }
+      .full-screen.grid-row .content .btn.small-btn {
+        padding: 1rem;
+        margin-top: 0;
+        font-size: 1.375rem; }
+      .full-screen.grid-row .content ol {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        margin: 0; }
+        .full-screen.grid-row .content ol li {
+          margin-bottom: 10px;
+          font-family: "OpenSans-Light";
+          font-size: 1rem;
+          color: #333333;
+          line-height: 1.75rem; }
+          .full-screen.grid-row .content ol li input {
+            font-family: "OpenSans-Light";
+            font-size: 1.125rem;
+            color: #333333;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom-width: 1px; }
+          .full-screen.grid-row .content ol li ul {
+            padding-bottom: 0; }
+      .full-screen.grid-row .content .mheight {
+        min-height: 18.75rem; }
+      .full-screen.grid-row .content .btn {
+        min-width: 14.5rem;
+        margin-top: 1.875rem;
+        margin-right: 1.9375rem;
+        font-family: "OpenSans-Bold";
+        font-size: 1.3125rem; }
+        .full-screen.grid-row .content .btn:last-child {
+          margin-right: 0; }
+      .full-screen.grid-row .content p > .quiz-item {
+        padding-top: 0; }
+      .full-screen.grid-row .content .quiz-item {
+        padding-top: 0.9375rem; }
+        .full-screen.grid-row .content .quiz-item h2 {
+          padding-bottom: 0;
+          font-size: 1.375rem; }
+        .full-screen.grid-row .content .quiz-item h3 {
+          margin-bottom: 0;
+          font-family: "OpenSans-Bold";
+          font-size: 1.125rem;
+          line-height: 28px; }
+        .full-screen.grid-row .content .quiz-item .success-message {
+          display: block;
+          padding-left: 2.1875rem;
+          margin: 0.625rem 0 0.9375rem;
+          font-family: "OpenSans-ExtraBold";
+          font-size: 1.125rem;
+          color: #79b61b;
+          position: relative; }
+          .full-screen.grid-row .content .quiz-item .success-message:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 26px;
+            height: 26px;
+            background-position: 1px -62px;
+            background-size: 5rem auto;
+            content: ""; }
+        .full-screen.grid-row .content .quiz-item .error-message {
+          display: block;
+          padding-left: 2.1875rem;
+          margin: 0.625rem 0 0.9375rem;
+          font-family: "OpenSans-ExtraBold";
+          font-size: 1.125rem;
+          color: #e40005;
+          position: relative; }
+          .full-screen.grid-row .content .quiz-item .error-message:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 26px;
+            height: 26px;
+            background-position: -28px -62px;
+            background-size: 5rem auto;
+            content: ""; }
+      .full-screen.grid-row .content select {
+        text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        overflow-x: hidden;
+        white-space: nowrap; }
+      .full-screen.grid-row .content .ex-title {
+        display: block;
+        font-family: "OpenSans-Light";
+        font-size: 1rem;
+        color: #333333;
+        padding: 0.625rem 0 0; }
+      .full-screen.grid-row .content ul {
+        padding-bottom: 1.875rem; }
+        .full-screen.grid-row .content ul li {
+          padding-left: 1.5625rem;
+          margin-top: 0.625rem;
+          font-family: "OpenSans-Light";
+          font-size: 1rem;
+          color: #333333;
+          position: relative; }
+          .full-screen.grid-row .content ul li:before {
+            position: absolute;
+            top: 9px;
+            left: 0.125rem;
+            width: 0.3125rem;
+            height: 0.3125rem;
+            border-radius: 100%;
+            content: "";
+            background-color: #333333; }
+        .full-screen.grid-row .content ul ul {
+          padding-bottom: 0; }
+      .full-screen.grid-row .content form .form-group {
+        margin-bottom: 1.875rem; }
+        .full-screen.grid-row .content form .form-group textarea {
+          height: 8.125rem;
+          font-family: "OpenSans-Light";
+          font-size: 1rem;
+          color: #a3a3a3; }
+        .full-screen.grid-row .content form .form-group.radio-wrap {
+          display: inline-block;
+          margin-right: 1.5625rem;
+          margin-bottom: 0; }
+          .full-screen.grid-row .content form .form-group.radio-wrap:last-child {
+            margin-right: 0; }
+          .full-screen.grid-row .content form .form-group.radio-wrap label {
+            padding-left: 2rem;
+            text-transform: none;
+            font-size: 1rem; }
+            .full-screen.grid-row .content form .form-group.radio-wrap label:before {
+              top: 2px;
+              border-width: 2px;
+              width: 19px;
+              height: 19px; }
+          .full-screen.grid-row .content form .form-group.radio-wrap input[type="radio"]:checked + label:after {
+            top: 8px;
+            left: 6px;
+            width: 7px;
+            height: 7px; }
+        .full-screen.grid-row .content form .form-group.mb-zero {
+          margin-bottom: 0; }
+        .full-screen.grid-row .content form .form-group.checkbox-wrap {
+          margin-bottom: 0.3125rem; }
+          .full-screen.grid-row .content form .form-group.checkbox-wrap label .form-control {
+            padding-top: 0;
+            font-size: 1rem; }
+          .full-screen.grid-row .content form .form-group.checkbox-wrap label span {
+            display: block;
+            font-family: "OpenSans-Light";
+            font-size: 15px;
+            text-transform: none; }
+          .full-screen.grid-row .content form .form-group.checkbox-wrap.disabled label {
+            color: #d9d9d9;
+            opacity: 0.8;
+            cursor: default; }
+            .full-screen.grid-row .content form .form-group.checkbox-wrap.disabled label:before {
+              border-color: #d9d9d9;
+              cursor: default; }
+          .full-screen.grid-row .content form .form-group.checkbox-wrap.disabled input[type="checkbox"]:checked + label:after {
+            display: none; }
+      .full-screen.grid-row .content .btn-wrap {
+        padding-bottom: 0.9375rem; }
+        .full-screen.grid-row .content .btn-wrap .btn {
+          min-width: 12.5rem;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
+          font-family: "ProximaNova-Semibold";
+          font-size: 1.125rem;
+          letter-spacing: 0.0625rem; }
+      .full-screen.grid-row .content .question-answer .quiz-item h2 {
+        padding-left: 2.5rem;
+        position: relative;
+        font-size: 1.125rem; }
+        .full-screen.grid-row .content .question-answer .quiz-item h2:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "Q : ";
+          z-index: 1; }
+      .full-screen.grid-row .content .question-answer .quiz-item .slected-answer {
+        display: block;
+        margin-top: 5px;
+        padding-left: 2.5rem;
+        font-size: 1rem;
+        position: relative; }
+        .full-screen.grid-row .content .question-answer .quiz-item .slected-answer:before {
+          position: absolute;
+          top: 0;
+          left: 4px;
+          font-family: "OpenSans-Bold";
+          font-size: 1rem;
+          content: "A : ";
+          z-index: 1; }
+      .full-screen.grid-row .content .question-answer .quiz-item:last-child .slected-answer {
+        padding-bottom: 10px; }
+    .full-screen.grid-row.inviting-mentors .btn.small-btn {
+      width: auto;
+      min-width: 10rem;
+      padding: 0.8125rem;
+      font-size: 1.25rem; }
+
+.preview-heading {
+  color: #4b77c5;
+  font-size: 1.09em;
+  margin-top: 0; }
+
+.preview-title {
+  padding-top: 0.5rem; }
+
+p.description {
+  margin-bottom: 0.5rem; }
+
+.form-preview {
+  margin-bottom: 0.35rem; }
+  .form-preview .quiz-ans {
+    margin-bottom: 1rem; }
+  .form-preview.style-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; }
+    .form-preview.style-two .quiz-ans {
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 0 15px; }
+  .form-preview h4 {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .form-preview p {
+    padding-bottom: 0; }
+
+@media screen and (min-width: 120rem) {
+  .full-screen.grid-row .content .custom-scroll {
+    height: calc(100vh - 505px); } }
+
+@media screen and (max-width: 99.9375rem) {
+  .full-screen.grid-row .content .book {
+    font-size: 1rem; }
+  .full-screen.grid-row .content .document {
+    font-size: 1rem; }
+  .full-screen.grid-row .content .btn {
+    min-width: 187px;
+    margin-top: 1.5625rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1875rem; }
+  .full-screen.grid-row .content ol li {
+    font-size: 0.9375rem; }
+  .full-screen.grid-row .content ul li {
+    font-size: 0.9375rem; }
+  .full-screen.grid-row .content .btn.small-btn {
+    padding: 13px;
+    font-size: 1.125rem; }
+  .full-screen.grid-row .content p input {
+    font-size: 0.9375rem; }
+  .full-screen.grid-row.inviting-mentors .btn.small-btn {
+    padding: 10px;
+    min-width: 8rem; }
+  p {
+    font-size: 0.9375rem; } }
+
+@media screen and (max-width: 77.5rem) {
+  .gray-page-title {
+    padding: 1.5625rem; } }
+
+@media screen and (max-width: 74.9375rem) {
+  .full-screen.grid-row .content h2 {
+    font-size: 2.375rem; }
+  .full-screen.grid-row .content .custom-scroll {
+    height: 20rem; }
+  .full-screen.grid-row .content .btn {
+    min-width: 92px;
+    font-size: 1.0625rem; } }
+
+@media screen and (max-width: 64rem) {
+  .full-screen.grid-row {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .full-screen.grid-row .image-block {
+      min-height: 37.5rem; }
+    .full-screen.grid-row .content {
+      max-width: 100%;
+      -ms-grid-column: 1;
+      grid-column: 1;
+      -ms-grid-row: 2;
+      grid-row: 2; }
+      .full-screen.grid-row .content .custom-scroll {
+        height: 16rem; } }
+
+@media screen and (max-width: 61.9375rem) {
+  .gray-page-title span .rounded-btn {
+    margin-left: 0.9375rem; }
+  .full-screen.grid-row {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .full-screen.grid-row .image-block {
+      min-height: 27.5rem; }
+    .full-screen.grid-row .content {
+      max-width: 100%;
+      -ms-grid-column: 1;
+      grid-column: 1;
+      -ms-grid-row: 2;
+      grid-row: 2; }
+      .full-screen.grid-row .content .custom-scroll {
+        height: auto;
+        padding-right: 0; }
+      .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+        top: 0 !important;
+        padding: 0.625rem 0; }
+      .full-screen.grid-row .content h2 {
+        font-size: 2rem; }
+      .full-screen.grid-row .content .mheight {
+        min-height: 0.625rem; }
+      .full-screen.grid-row .content .radio-box > label {
+        font-size: 1rem; }
+      .full-screen.grid-row .content ul li {
+        padding-left: 1.25rem; } }
+
+@media screen and (min-width: 48rem) {
+  .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+    position: static !important; } }
+
+@media screen and (max-width: 47.9375rem) {
+  .form-preview .quiz-ans {
+    flex: 0 0 100%;
+    max-width: 100%; }
+    .full-screen.grid-row .content p input {
+      width:8rem;
+  }
+  .form-preview.style-two .quiz-ans {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .full-screen.grid-row .image-block {
+    min-height: 49.375rem; }
+  .full-screen.grid-row .content {
+    padding: 1.875rem 2.5rem 2.5rem; }
+    .full-screen.grid-row .content h2 {
+      font-size: 1.75rem; }
+    .full-screen.grid-row .content h3 {
+      font-size: 1rem; }
+    .full-screen.grid-row .content .radio-buttons {
+      padding-top: 0.625rem; }
+    .full-screen.grid-row .content .btn {
+      min-width: 84px;
+      padding: 0.5rem 0.625rem;
+      margin-top: 0.9375rem;
+      margin-right: 0.9375rem;
+      display: inline-block;
+      width: auto; }
+    .full-screen.grid-row .content form .form-group {
+      margin-bottom: 1.25rem; }
+    .full-screen.grid-row .content form h3 {
+      font-size: 1rem; }
+    .full-screen.grid-row .content .radio-box > label {
+      font-size: 0.9375rem; }
+    .full-screen.grid-row .content .btn.small-btn {
+      padding: 10px;
+      font-size: 1rem; }
+  .full-screen.grid-row.inviting-mentors .btn.small-btn {
+    padding-top: 8px;
+    padding-bottom: 8px; } }
+
+@media screen and (max-width: 35.9375rem) {
+  .full-screen.grid-row .content .custom-heading ul li {
+    font-size: 18px;
+}
+.full-screen.grid-row .content .custom-heading ul li:before {
+  top: 8px;
+  width: 8px;
+  height: 8px;
+}
+  .gray-page-title {
+    padding: 1.25rem 0.9375rem;
+    font-size: 0.9375rem; }
+    .gray-page-title span .rounded-btn {
+      min-width: 7.125rem;
+      margin-top: -0.6875rem;
+      margin-left: 0.625rem; }
+  .full-screen.grid-row .image-block {
+    min-height: 26.25rem; }
+  .full-screen.grid-row .content {
+    padding: 1.875rem 0.9375rem; }
+    .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+      position: relative;
+      padding-left: 32px; }
+      .full-screen.grid-row .content .book:before, .full-screen.grid-row .content .document:before {
+        position: absolute;
+        top: 8px;
+        left: 0; }
+    .full-screen.grid-row .content h2 {
+      padding-bottom: 0.625rem;
+      font-size: 1.5rem; }
+    .full-screen.grid-row .content .btn {
+      margin-top: 0.3125rem;
+      font-size: 1rem; }
+    .full-screen.grid-row .content .quiz-item {
+      padding-top: 0.625rem; }
+      .full-screen.grid-row .content .quiz-item h3 {
+        margin-bottom: 0;
+        font-size: 1rem;
+        line-height: 24px; }
+    .full-screen.grid-row .content ul {
+      padding-bottom: 0.9375rem; }
+    .full-screen.grid-row .content form .form-group {
+      margin-bottom: 0.9375rem; }
+      .full-screen.grid-row .content form .form-group textarea {
+        min-height: 100px;
+        height: 6.25rem;
+        font-size: 0.9375rem; }
+    .full-screen.grid-row .content .question-answer .quiz-item h2 {
+      padding-left: 2rem;
+      font-size: 1rem; }
+    .full-screen.grid-row .content .question-answer .quiz-item .slected-answer {
+      padding-left: 2rem;
+      margin-top: 5px;
+      font-size: 0.9375rem; }
+      .full-screen.grid-row .content .question-answer .quiz-item .slected-answer:before {
+        font-size: 0.9375rem; }
+    .full-screen.grid-row .content .question-answer .quiz-item:last-child .slected-answer {
+      padding-bottom: 20px; }
+    .full-screen.grid-row .content .btn-wrap .btn {
+      padding-top: 0.625rem;
+      padding-bottom: 0.625rem;
+      font-size: 1rem; } }
+
+@media screen and (max-width: 29.9375rem) {
+  .gray-page-title {
+    text-align: center; }
+    .gray-page-title span {
+      float: none;
+      display: block;
+      padding-top: 0.3125rem; }
+      .gray-page-title span .rounded-btn {
+        min-width: 0.625rem;
+        margin-top: 0;
+        margin-left: 0.5rem;
+        padding: 0.3125rem 1.25rem;
+        font-size: 1.125rem; }
+  .full-screen.grid-row .image-block {
+    min-height: 17rem; }
+  .full-screen.grid-row .content h2 {
+    font-size: 1.3125rem; }
+  .full-screen.grid-row .content .btn {
+    width: 100%;
+    margin: 0.4375rem 0; }
+  .full-screen.grid-row .content form .form-group.radio-wrap {
+    display: block; }
+  .full-screen.grid-row .content form .form-group .radio-buttons .radio-wrap {
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 15px; }
+    .full-screen.grid-row .content form .form-group .radio-buttons .radio-wrap:last-child {
+      padding-right: 0;
+      margin-right: 0; }
+  .full-screen.grid-row .content .btn-wrap .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 0.9375rem; }
+  .full-screen.grid-row .content .btn.small-btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 0.9375rem; } }
+
+@media screen and (max-width: 24.9375rem) {
+  .gray-page-title {
+    font-size: 0.9375rem; }
+    .gray-page-title span .rounded-btn {
+      min-width: 0.625rem;
+      margin-left: 0.1875rem;
+      font-size: 1rem; } }
+
+@media screen and (max-width: 22.4375rem) {
+  .full-screen.grid-row .content .quiz-item .success-message {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1rem; }
+  .full-screen.grid-row .content .quiz-item .error-message {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1rem; } }
+
+@media screen and (max-width: 20rem) {
+  .full-screen.grid-row .image-block {
+    min-height: 13rem; } }

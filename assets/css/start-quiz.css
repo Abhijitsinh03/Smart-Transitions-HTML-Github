@@ -1,0 +1,167 @@
+header.start-quiz {
+  padding-top: 6.25rem;
+  padding-bottom: 0; }
+
+.start-quiz {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem; }
+  .start-quiz.container {
+    max-width: 730px; }
+  .start-quiz h2, .start-quiz h1 {
+    font-family: "OpenSans-Bold";
+    font-size: 2rem; }
+  .start-quiz p {
+    font-size: 1.125rem; }
+  .start-quiz .btn {
+    width: 100%;
+    margin-top: 1.875rem;
+    font-family: "OpenSans-Bold";
+    font-size: 1.5rem; }
+  .start-quiz .quiz-item {
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.5625rem; }
+    .start-quiz .quiz-item:nth-last-child(2) {
+      margin-bottom: 1.25rem; }
+    .start-quiz .quiz-item h2 {
+      padding-bottom: 0.9375rem;
+      font-size: 1.5rem; }
+    .start-quiz .quiz-item .btn-wrap {
+      display: block;
+      margin: 0 -1%; }
+    .start-quiz .quiz-item .btn {
+      width: 48%;
+      min-width: inherit;
+      padding: 0.75rem;
+      margin: 0 1%;
+      font-size: 1.25rem;
+      background-color: #b4b4b4; }
+      .start-quiz .quiz-item .btn:hover, .start-quiz .quiz-item .btn:focus {
+        background-color: #a4a4a4; }
+      .start-quiz .quiz-item .btn.red-btn {
+        background-color: #d11241; }
+        .start-quiz .quiz-item .btn.red-btn:hover {
+          background-color: #c90938; }
+      .start-quiz .quiz-item .btn.green-btn {
+        background-color: #6ec16a; }
+        .start-quiz .quiz-item .btn.green-btn:hover {
+          background-color: #64b660; }
+
+header.start-quiz + .start-quiz {
+  padding-top: 0; }
+
+.progress-wrap span {
+  width: 20%;
+  font-size: 1.125rem; }
+  .progress-wrap span:nth-child(2) {
+    width: 30%; }
+  .progress-wrap span:nth-child(3) {
+    width: 40%; }
+  .progress-wrap span:nth-child(4) {
+    width: 10%; }
+
+.progress-wrap .myprogress {
+  height: 4.0625rem; }
+  .progress-wrap .myprogress .mybar {
+    width: 60%;
+    height: 4.0625rem; }
+
+@media screen and (max-width: 74.9375rem) {
+  .progress-wrap span {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 64rem) {
+  .start-quiz h2, .start-quiz h1 {
+    font-size: 2rem; } }
+
+@media screen and (max-width: 61.9375rem) {
+  .start-quiz {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .start-quiz .btn {
+      margin-top: 1.25rem; }
+    .start-quiz .quiz-item h2 {
+      padding-bottom: 1.25rem;
+      font-size: 1.375rem; }
+    .start-quiz .quiz-item .btn {
+      font-size: 1.3rem; }
+  header.start-quiz {
+    padding-top: 80px; } }
+
+@media screen and (max-width: 47.9375rem) {
+  header.start-quiz {
+    padding-top: 3.125rem; }
+  .start-quiz {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem; }
+    .start-quiz h2, .start-quiz h1 {
+      font-size: 1.75rem; }
+    .start-quiz p {
+      font-size: 1rem;
+      line-height: 26px; }
+    .start-quiz .quiz-item h2 {
+      margin-bottom: 0;
+      font-size: 1.25rem; }
+    .start-quiz .quiz-item .btn {
+      padding: 0.625rem;
+      font-size: 1.25rem; }
+    .start-quiz .btn {
+      margin-top: 0.9375rem;
+      font-size: 1.375rem; }
+  .progress-wrap {
+    margin: 1.25rem 0 1.875rem; }
+    .progress-wrap .myprogress {
+      height: 3.375rem; }
+      .progress-wrap .myprogress .mybar {
+        height: 3.375rem; } }
+
+@media screen and (max-width: 35.9375rem) {
+  header.start-quiz {
+    padding-top: 35px; }
+  .start-quiz {
+    padding-bottom: 40px; }
+    .start-quiz h2, .start-quiz h1 {
+      margin-bottom: 0;
+      font-size: 1.5rem; }
+    .start-quiz p {
+      font-size: 0.9375rem; }
+    .start-quiz .btn {
+      margin-top: 0.625rem;
+      font-size: 1.25rem; }
+    .start-quiz .quiz-item {
+      margin-bottom: 0.9375rem;
+      padding-bottom: 0.625rem; }
+      .start-quiz .quiz-item h2 {
+        padding-bottom: 0.625rem;
+        font-size: 1.125rem;
+        line-height: unset; }
+      .start-quiz .quiz-item .btn {
+        font-size: 1.125rem; }
+      .start-quiz .quiz-item:nth-last-child(2) {
+        margin-bottom: 0.625rem; }
+  .progress-wrap {
+    margin: 0 0 1.25rem; }
+    .progress-wrap span {
+      font-size: 0.875rem; }
+    .progress-wrap .myprogress {
+      height: 40px; }
+      .progress-wrap .myprogress .mybar {
+        height: 40px; } }
+
+@media screen and (max-width: 29.9375rem) {
+  .start-quiz h2, .start-quiz h1 {
+    font-size: 1.25rem; }
+  .start-quiz .btn {
+    font-size: 1.125rem; }
+  .start-quiz .quiz-item h2 {
+    font-size: 1rem; }
+  .start-quiz .quiz-item .btn {
+    padding: 0.5rem;
+    font-size: 1rem; } }
+
+@media screen and (max-width: 22.5rem) {
+  .progress-wrap span {
+    font-size: 0.8125rem; }
+  .progress-wrap .myprogress {
+    height: 32px; }
+    .progress-wrap .myprogress .mybar {
+      height: 32px; } }

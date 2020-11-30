@@ -1,0 +1,181 @@
+@import 'variables';
+
+h2 {
+	padding-bottom: $padding-10;
+	font-family: $bold-font;
+	font-size: $font-32;
+}
+.sub-title {
+	padding-bottom: $padding-70;
+	margin-bottom: $margin-50;
+	font-size: $font-20;
+	line-height: 30px;
+	border-bottom: 0.0625rem solid #dbdbdb;
+}
+
+.table-responsive {
+	table {
+		tr {
+			th {
+				font-family: $semi-font;
+				font-size: $font-20;
+				color: #333333;
+				text-transform: none;
+				h2 {
+					padding-bottom: $padding-zero;
+					margin-bottom: $margin-zero;
+				}
+				.rounded-btn {
+					font-family: $proximanova-semibold-font;
+					font-size: $font-15;
+					letter-spacing: 0.0625rem;
+					padding: 12px 24px;
+				}
+				&:last-child {
+					text-align: right;
+					padding-right: $padding-zero;
+				}
+			}
+			td {
+				font-family: $normal-font;
+				font-size: $font-18;
+				.remove-btn {
+					font-family: $bold-font;
+					color: #d2073d;
+				}
+				&:first-child {
+					font-family: $bold-font;
+				}
+				&:last-child {
+					text-align: right;
+				}
+			}
+		}
+	}
+}
+.mentor-team .table-responsive table tr th:first-child {
+	font-size: $font-28;
+}
+.invite-mentor {
+	form {
+		max-width: 43.75rem;
+		margin: 0 auto;
+		.form-group {
+			textarea {
+				&.form-control {
+					height: 12.5rem;
+				}
+			}
+			&:last-child {
+				text-align: right;
+			}
+		}
+		.btn {
+			width: inherit;
+		}
+	}
+}
+
+@media screen and (max-width: 74.9375rem) {
+	h2 {
+		font-size: $font-28;
+	}
+	.sub-title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+@media screen and (max-width: 61.9375rem) {
+	h2 {
+		font-size: $font-24;
+	}
+	.table-responsive table tr th {
+		font-size: 18px;
+		.rounded-btn {
+			padding: 10px 20px;
+		}
+	}
+	.table-responsive table tr td {
+		font-size: $font-16;
+	}
+	.mentor-team .table-responsive table tr th:first-child {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 47.9375rem) {
+	h2 {
+		font-size: $font-22;
+	}
+	.sub-title {
+		padding-bottom: $padding-40;
+		margin-bottom: $margin-30;
+		font-size: $font-16;
+		line-height: 26px;
+	}
+	.table-responsive {
+		table {
+			tr {
+				th {
+					font-size: $font-18;
+					letter-spacing: 0;
+					.rounded-btn {
+						padding: 8px 20px;
+						font-size: $font-15;
+					}
+				}
+				td {
+					font-size: $font-15;
+				}
+			}
+		}
+	}
+	.mentor-team .table-responsive table tr th:first-child {
+		font-size: $font-18;
+	}
+	.invite-mentor {
+		form {
+			.form-group {
+				textarea {
+					&.form-control {
+						height: 100px;
+					}
+				}			
+			}
+		}
+	}
+}
+@media screen and (max-width: 35.9375rem) {
+	h2 {
+		font-size: $font-20;
+		margin-bottom: 0;
+	}
+	.sub-title {
+		font-size: $font-15;
+		line-height: 24px;
+	}
+	.table-responsive {
+		table {
+			tr {
+				th {
+					font-size: $font-15;
+					.rounded-btn {
+						font-size: 13px;
+						letter-spacing: 0.3px;
+					}
+				}
+				td {
+					font-size: $font-15;
+				}
+			}
+		}
+	}
+	.mentor-team .table-responsive table tr th:first-child {
+		font-size: $font-15;
+	}
+}
+@media screen and (max-width: 29.9375rem) {
+	h2 {
+		font-size: $font-18;
+	}
+}

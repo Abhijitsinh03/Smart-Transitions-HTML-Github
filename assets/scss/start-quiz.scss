@@ -1,0 +1,240 @@
+@import 'variables';
+header.start-quiz {
+	padding-top: 6.25rem;
+	padding-bottom: 0;
+}
+.start-quiz {
+	padding-top: 6.25rem;
+	padding-bottom: 6.25rem;
+	&.container {
+		max-width: 730px;
+	}
+	h2, h1 {
+		font-family: $bold-font;
+		font-size: $font-32;
+	}
+	p {
+		font-size: $font-18;
+	}
+	.btn {
+		width: 100%;
+		margin-top: $margin-30;
+		font-family: $bold-font;
+		font-size: $font-24;
+	}
+	.quiz-item {
+		padding-bottom: $padding-20;
+		margin-bottom: $margin-25;
+		&:nth-last-child(2) {
+			margin-bottom: $margin-20;
+		}
+		h2 {
+			padding-bottom: 0.9375rem;
+			font-size: $font-24;
+		}
+		.btn-wrap {
+			display: block;
+			margin: 0 -1%;
+		}
+		.btn {
+			width: 48%;
+			min-width: inherit;
+			padding: 0.75rem;
+			margin: 0 1%;
+			font-size: $font-20;
+			background-color: #b4b4b4;
+			&:hover, &:focus {
+				background-color: #a4a4a4;
+			}
+			&.red-btn {
+				background-color: #d11241;
+				&:hover {
+					background-color: #c90938;
+				}
+			}
+			&.green-btn {
+				background-color: #6ec16a;
+				&:hover {
+					background-color: #64b660;
+				}
+			}
+		}
+	}
+}
+header.start-quiz + .start-quiz {
+	padding-top: 0;
+}
+
+.progress-wrap {
+	span {
+		width: 20%;
+		font-size: $font-18;
+		&:nth-child(2) {
+			width: 30%;
+		}
+		&:nth-child(3) {
+			width: 40%;
+		}
+		&:nth-child(4) {
+			width: 10%;
+		}
+	}
+	.myprogress {
+	  height: 4.0625rem;
+	  .mybar {
+		  width: 60%;
+		  height: 4.0625rem;
+		}
+	}
+}
+
+@media screen and (max-width: 74.9375rem) {
+	.progress-wrap {
+		span {
+			font-size: $font-16;
+		}
+	}
+}
+@media screen and (max-width: 64rem) {
+	.start-quiz h2, .start-quiz h1 {
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 61.9375rem) {
+	.start-quiz {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		.btn {
+			margin-top: $margin-20;
+		}
+		.quiz-item {
+			h2 {
+				padding-bottom: 1.25rem;
+				font-size: $font-22;
+			}
+			.btn {
+				font-size: 1.3rem;
+			}
+		}
+	}
+	header.start-quiz {
+		padding-top: 80px;
+	}
+}
+@media screen and (max-width: 47.9375rem) {
+	header.start-quiz {
+		padding-top: $padding-50;
+	}
+	.start-quiz {
+		padding-top: $padding-50;
+		padding-bottom: $padding-50;
+		h2, h1 {
+			font-size: $font-28;
+		}
+		p {
+			font-size: $font-16;
+			line-height: 26px;
+		}
+		.quiz-item {
+			h2 {
+				margin-bottom: 0;
+				font-size: $font-20;
+			}
+			.btn {
+				padding: 0.625rem;
+				font-size: $font-20;
+			}
+		}
+		.btn {
+			margin-top: $margin-15;
+			font-size: $font-22;
+		}
+	}
+	.progress-wrap {
+		margin: $margin-20 $margin-zero $margin-30;
+		.myprogress {
+		  height: 3.375rem;
+		  .mybar {
+			  height: 3.375rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 35.9375rem) {
+	header.start-quiz {
+		padding-top: 35px;
+	}
+	.start-quiz {
+		padding-bottom: 40px;
+		h2, h1 {
+			margin-bottom: 0;
+			font-size: $font-24;
+		}
+		p {
+			font-size: $font-15;
+		}
+		.btn {
+			margin-top: $margin-10;
+			font-size: $font-20;
+		}
+		.quiz-item {
+			margin-bottom: $margin-15;
+			padding-bottom: $padding-10;
+			h2 {
+				padding-bottom: 0.625rem;
+				font-size: $font-18;
+				line-height: unset;
+			}
+			.btn {
+				font-size: $font-18;
+			}
+			&:nth-last-child(2) {
+				margin-bottom: $margin-10;
+			}
+		}
+	}
+	.progress-wrap {
+		margin: $margin-zero $margin-zero $margin-20;
+		span {
+			font-size: 0.875rem;
+		}
+		.myprogress {
+		  height: 40px;
+		  .mybar {
+			  height: 40px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 29.9375rem) {
+	.start-quiz {
+		h2, h1 {
+			font-size: $font-20;
+		}
+		.btn {
+			font-size: 1.125rem;
+		}
+		.quiz-item {
+			h2 {
+				font-size: $font-16;
+			}
+			.btn {
+				padding: 0.5rem;
+				font-size: 1rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 22.5rem) {
+	.progress-wrap {
+		span {
+			font-size: 0.8125rem;
+		}
+		.myprogress {
+		  height: 32px;
+		  .mybar {
+			  height: 32px;
+			}
+		}
+	}
+}

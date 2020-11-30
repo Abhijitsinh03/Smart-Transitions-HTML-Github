@@ -1,0 +1,245 @@
+Date: 02-21-2020
+Lunch: Added TechArk logo in the footer section and also updated the main.scss file.
+
+
+Date: 02-20-2020
+Evening: Fixed five UI bugs and three bugs are still remaining
+
+And also I made changes in these SCSS files:
+1. back-to-dashboard.scss
+2. achievements.scss
+
+
+Date: 02-13-2020
+Lunch: I have updated below pages images: 
+1. quiz-18-Page1
+2. quiz-2-Page8
+3. quiz-3-Page6
+4. quiz-4-Page7
+5. quiz-5-Page2
+6. quiz-6-Page2
+7. quiz-7-Page2
+8. quiz-8-Page2
+9. quiz-9-Page2
+10. quiz-10-Page8 - added minimum height class in last p tag.
+11. quiz-11-Page2
+12. quiz-12-Page2
+13. quiz-13 - Please provide the image
+14. quiz-14 - Please provide the image
+15. quiz-15-Page3
+16. quiz-16-Page2
+17. quiz-17-Page2 - added minimum height class in last p tag.
+18. quiz-18-Page2
+19. quiz-19-Page2 - added minimum height class in last p tag.
+20. quiz-20-Page2 - added minimum height class in last p tag.
+
+And also removed some images in images folder.
+
+
+Date: 02-12-2020
+
+Evening: Added the font CSS link in all pages as well as verified all quiz with doc files.
+
+Lunch: Added form tag in quiz-12-Page1, removed the close jquery in scripts.js file as well as updated the image for quiz-4-Page1.
+
+
+Date: 02-11-2020
+
+Evening: P tag added above the bullet list in quiz-12-Page1 and updated the state select box to input box in quiz-18-Page1
+
+1. quiz-10-Page7 - Please share the image
+2. quiz-11-Page1 - Multiple forms
+3. quiz-12-Page1 - Multiple forms
+4. quiz-13-Page1 - Please share the image
+5. quiz-14-Page1 - Please share the image
+6. quiz-18-Page1 - Multiple forms
+7. quiz-19-Page3 - Please share the image
+8. Need to discuss - quiz-8 • Design note: There should be three columns of checkboxes (an A column, a B column, and a C column—see the last sentence before the checklist above). Any desing that facilitates this is okay with me.
+
+
+Date: 02-10-2020
+
+Evening: Updated the checkboxes in both pages (quiz-8-Page1 and quiz-9-Page1), created a question & answer page (quiz-4-Page6), added blue, red and green classes in form-group div for this page (quiz-6-Page1), added a Invite button and inviting-mentors class in section tag for this pages (quiz-12-Page1) and also updated both SCSS files (back-to-dashboard.scss and main.scss)
+
+
+Date: 02-06-2020
+
+Lunch:  Worked for feedback and added a scrollbar in all quiz pages.
+
+
+Date: 02-05-2020
+
+Evening:
+1. All quiz pages linked together
+2. Btn wrap div added for both quiz page (quiz-1-Page2 and quiz-1-Page3)
+3. Quiz button width issue fixed for desktop and mobile view.
+4. Updated the start-quiz.scss and back-to-dashboard.scss file
+
+Lunch:  Fixed both points as shared by Shraddha.
+
+
+Date: 02-04-2020
+
+Lunch:  Completed all feedback as shared by Shraddha.
+
+
+Date: 02-03-2020
+
+Lunch:  Next 2 more pages completed.
+
+
+Date: 01-31-2020
+
+Evening: Completed 12 more pages and still I need to work for 13 and 14 pages and also worked for feedback too.
+
+Lunch:  Next 10 more pages completed.
+
+
+Date: 01-30-2020
+
+Evening: 15 more pages completed.
+
+Lunch:  Next 10 more pages completed.
+
+
+Date: 01-29-2020
+
+Evening: I have updated 24 pages content for quiz.
+
+
+Date: 01-27-2020
+
+Lunch:  Added the slider section on guided tour copy page.
+
+
+Date: 01-22-2020
+
+Evening:  View Introductory Video button added for help resources page.
+
+
+Date: 01-10-2020
+
+Evening:  I have tested all pages for the chorme browser and fixed some issues to be discovered during testing.
+
+Lunch: Worked for feedback and i'm still working on the testing for chrome browser.
+
+
+Date: 01-09-2020
+
+Evening: Updated the awards images for achievements, kevin davis detail and mentor dashboard pages and solved the loader background image issue for the IE browser as well as compared all pages with design and fixed some issues to be discovered during testing.
+And all pages testing completed for the desktop and responsive view.
+
+Lunch: I have tested all pages in the IE browser and resolved all console errors except one jQuery error.
+
+
+Date: 01-08-2020
+
+Evening: Resolved all pages w3c errors with CSS as well as added the h1 heading tag below the article tag.
+
+Lunch: I have tested the 50% pages W3C validation.
+
+
+Date: 01-07-2020
+
+Evening: Worked for feedback on kevin davis detail page and completed 404 error page with responsive.
+
+Lunch: I have Completed the kevin davis detail page with responsive and browser testing too.
+
+
+Date: 01-06-2020
+
+Evening: Completed the admin dashboard user details page default and responsive view along with W3C validation and browser testing.
+
+Lunch: Completed the mentor dashboard page with responsive and browser testing too.
+
+
+Date: 01-03-2020
+
+Evening: Completed kevin davis and my elevator pitch page default and responsive view.
+
+Lunch: Worked for feedback and completed my recommendations page default and responsive view.
+
+
+Date: 01-02-2020
+
+Evening: Worked for feedback on the email template as well as completed 
+my portfolio page default and responsive view.
+
+Lunch: Updated the email template and loader button with responsive.
+
+
+Date: 12-31-2019
+
+Evening: Updated the gallery page popup, completed my public brand page default and responsive view.
+
+Lunch: Fixed the button issue in responsive view for congratulations pages and updated the gallery page title background image.
+
+
+Date: 12-30-2019
+
+Evening: Updated the multiple select box UI and completed my gallery page default view.
+
+Lunch: Worked for feedback for form-related and completed the invite a mentor page with responsive.
+
+
+Date: 12-27-2019
+
+Evening: My plan, my motivation, my support network, congratulations and my mentor team pages completed default and responsive view with W3C validation and browser testing.
+
+Lunch: My vision and email template pages completed default and responsive view.
+
+
+Date: 12-26-2019
+
+Evening: Financially, behaviorally, reading quiz, congratulations and getting started pages completed default and responsive view with W3C validation and browser testing.
+
+Lunch: Adulthood, legally, biologically, socially and developmentally pages completed default and responsive view along with W3C validation and browser testing.
+
+
+Date: 12-24-2019
+
+Evening: Worked for feedback and achievements page completed response view.
+
+Lunch: Completed the achievements page default view.
+
+
+Date: 12-23-2019
+
+Evening: Added the multiple select box and i'm working on the IE issue.
+
+Lunch: Updated the datepicker plugin for create account page.
+
+
+Date: 12-20-2019
+
+Evening: Work in progress and messages sections completed for the achievements page and added the datepicker in create account page.
+
+Lunch: Updated the up-down arrow for agencies and users pages and I'm still working on the select2.
+
+
+Date: 12-19-2019
+
+Evening: Banner and to-do sections completed for the achievements page.
+
+Lunch: Completed the guided tour page with responsive, changed the quiz button anchor tag to button tag and loader added for all tables.
+
+
+Date: 12-18-2019
+
+Evening: Quiz two and quiz three pages completed on the default and responsive view along with w3c validation and IE browser testing.
+
+Lunch: Intro wizard, start-quiz and quiz-one these pages completed on the default and responsive view along with w3c validation and IE browser testing.
+
+
+Date: 12-17-2019
+
+Evening: Completed the help resources page with responsive.
+
+Lunch: I have completed the create account and user profile page with responsive.
+
+
+Date: 12-16-2019
+
+Evening: Completed the create account and user profile page except for password field and buttons.
+
+Lunch: Added errors for all forms, added disable for Agency Code.

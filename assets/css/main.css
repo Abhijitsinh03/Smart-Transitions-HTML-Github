@@ -317,6 +317,190 @@ span.document:before,
   color: red;
   font-weight: 700; }
 
+.grid-row.full-screen.quiz-52-2nd-secret .content .yes-no-option-div {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle; }
+
+.grid-row.full-screen.quiz-52-2nd-secret .content .yes-image {
+  width: 40%;
+  cursor: pointer; }
+
+.grid-row.full-screen.quiz-52-2nd-secret .content .no-image {
+  width: 38%;
+  cursor: pointer; }
+
+.grid-row.full-screen.quiz-52-2nd-secret .content .option-yes-no-radio {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.quiz-37-my-job th.job-sub {
+  width: 7%;
+  padding: 0px 5px; }
+
+.quiz-37-my-job .job-sec1.job-sec2 {
+  width: 75%;
+  display: flex; }
+
+.quiz-37-my-job .jc-cls input {
+  width: 100%;
+  height: 30px; }
+
+.quiz-37-my-job .jc-cls-2 {
+  overflow-x: auto; }
+
+.quiz-37-my-job table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%; }
+
+.quiz-37-my-job .jc-cls-2 .checkbox-wrap label:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  top: -7px; }
+
+.quiz-37-my-job .jc-cls-2 .checkbox-wrap input[type="checkbox"]:checked + label:after {
+  top: 1px;
+  left: 10px !important;
+  width: 15px;
+  height: 15px; }
+
+.quiz-37-my-job .jc-cls-2 form {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 20px;
+  margin: 0 auto; }
+
+.quiz-37-my-job .job-head {
+  width: 20%;
+  text-align: left; }
+
+.quiz-37-my-job .job-head {
+  font-size: 16px; }
+
+.quiz-37-my-job .job-sub p {
+  font-size: 13px;
+  line-height: normal; }
+
+.quiz-37-my-job .jc-cls-2 {
+  margin-bottom: 30px; }
+
+.quiz-38-css h3 span {
+  font-weight: normal; }
+
+.quiz-38-css b {
+  color: #000;
+  font-weight: 800; }
+
+.quiz-38-css ul h3 {
+  margin-top: 20px; }
+
+.quiz-39-word .cus-btn {
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0px; }
+
+.quiz-39-word .content .bottom-btn.cus-btn button {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  padding: 12px 0px; }
+
+.quiz-39-word .g-text h3 input {
+  width: 10rem;
+  padding: 2px 5px;
+  font-family: "OpenSans-Light";
+  font-size: 1rem;
+  color: #333333;
+  border-top: none;
+  border-left: none;
+  margin-left: 10px;
+  border-right: none;
+  border-bottom: 2px solid #0d3971;
+  width: 100%;
+  box-sizing: border-box; }
+
+.quiz-39-word .g-text h3 {
+  text-transform: uppercase; }
+
+.quiz-39-word .groups {
+  display: flex;
+  flex-wrap: wrap; }
+
+.quiz-39-word .groups .g-text {
+  width: 33.33%;
+  padding: 0px 10px; }
+
+.quiz-39-word b {
+  color: #000; }
+
+.quiz-40-my-life b {
+  color: #000; }
+
+.quiz-40-my-life .get-head {
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 21px;
+  /* margin-right: 36px; */ }
+
+.quiz-40-my-life .get-head span {
+  margin-right: 10px; }
+
+.quiz-40-my-life .get-head form .form-group label {
+  font-weight: bold;
+  color: #000; }
+
+.quiz-40-my-life .custom-scroll ol {
+  margin-left: 50px !important; }
+
+.quiz-40-my-life .get-head {
+  margin-left: 20px; }
+
+.quiz-40-my-life .get-head form .form-group.checkbox-wrap label {
+  padding-left: 35px;
+  text-transform: capitalize; }
+
+.quiz-40-my-life .lower label {
+  text-transform: capitalize; }
+
+.quiz-40-my-life ol.lower form .form-group label {
+  text-transform: capitalize; }
+
+.quiz-40-my-life .custom-scroll ol.new-ol-1 {
+  margin: 0 !important; }
+
+.quiz-40-my-life .content ol.new-ol-1 li input {
+  width: 100% !important;
+  height: 2rem; }
+
+.quiz-41-my-life .cus-btn {
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0px; }
+
+.quiz-41-my-life .content .bottom-btn.cus-btn button {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  padding: 12px 0px; }
+
+.quiz-41-my-life b {
+  color: #000; }
+
+.full-screen.grid-row.quiz-55-part-time .image-block {
+  background-size: unset; }
+
 .grid-col-6:nth-child(2) {
   -ms-grid-column: 2;
   grid-column: 2;
@@ -2049,4 +2233,16 @@ body.model-open {
 
 @media (max-width: 767px) {
   .full-screen.grid-row.quiz-27-my-gifts .content p input {
-    width: 100% !important; } }
+    width: 100% !important; }
+  section.full-screen.grid-row.quiz-37-my-job {
+    display: block; }
+  .quiz-37-my-job .custom-scroll.ps {
+    overflow-x: auto !important;
+    overflow-anchor: unset;
+    touch-action: unset; }
+  .quiz-39-word .g-text h3 input {
+    margin-left: 0px; }
+  .quiz-39-word ol.lower form .form-group label {
+    padding-top: 0px; }
+  .quiz-40-my-life ol.lower form .form-group label {
+    padding-top: 0px; } }

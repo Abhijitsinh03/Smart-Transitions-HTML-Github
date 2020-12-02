@@ -299,7 +299,7 @@ span.document:before,
     margin: 0 -0.9375rem;
 }
 
-// Quiz - 26 Start
+// Quiz - 23 Start
 .full-screen.grid-row.quiz-23-top-10-secrets {
     .content {
         .custom-heading {
@@ -311,8 +311,21 @@ span.document:before,
                     font-family: "OpenSans-Bold";
                     font-size: 25px;
                 }
+                padding-bottom: 0;
             }
         }
+    }
+}
+
+.full-screen.grid-row {
+    .image-quiz-contain {
+        background-size: contain;
+    }
+}
+
+.full-screen.grid-row {
+    .image-quiz-postion {
+        background-position: unset;
     }
 }
 
@@ -337,7 +350,7 @@ span.document:before,
     }
 }
 
-// Quiz - 26 End
+// Quiz - 23 End
 // Quiz - 27 start
 .quiz-27-my-gifts {
     .form-control {
@@ -737,8 +750,10 @@ span.document:before,
     }
 }
 
-.full-screen.grid-row.quiz-55-part-time .image-block {
-    background-size: unset;
+.full-screen.grid-row.quiz-55-part-time {
+    .image-block {
+        background-size: unset;
+    }
 }
 
 .grid-col-6 {
@@ -759,6 +774,154 @@ span.document:before,
         grid-column: 2;
         -ms-grid-row: 2;
         grid-row: 2;
+    }
+}
+
+.quiz-42 {
+    .cus-btn {
+        text-align: center;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .content {
+        .bottom-btn.cus-btn {
+            button {
+                text-align: center;
+                margin: 0;
+                font-size: 18px;
+                padding: 12px 0px;
+            }
+        }
+    }
+}
+
+.quiz-43 {
+    p.new-head1 {
+        font-size: 23px;
+        line-height: normal;
+        b {
+            font-size: 30px;
+            font-weight: 900;
+            font-family: "OpenSans-Bold";
+            color: #222222;
+            font-weight: 500;
+        }
+    }
+    .table {
+        margin-bottom: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            td {
+                border: 1px solid #000;
+                padding: 3px 10px;
+            }
+        }
+        thead {
+            tr {
+                th {
+                    border: 1px solid #000;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+    .content {
+        p {
+            a {
+                color: #000 !important;
+                text-decoration: underline;
+            }
+        }
+    }
+    b {
+        color: #000;
+    }
+}
+
+.quiz-46 {
+    .form-group.checkbox-wrap {
+        .new-i {
+            input {
+                width: 15rem;
+                padding: 2px 5px;
+                font-family: "OpenSans-Light";
+                font-size: 1rem;
+                color: #333333;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 2px solid #0d3971;
+            }
+        }
+    }
+    .cus-btn {
+        text-align: center;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .content {
+        .bottom-btn.cus-btn {
+            button {
+                text-align: center;
+                margin: 0;
+                font-size: 18px;
+                padding: 12px 0px;
+            }
+        }
+    }
+    b {
+        color: #000;
+    }
+}
+
+.full-screen.grid-row.quiz-49 {
+    .content {
+        ol.new-ol {
+            padding-left: 25px;
+        }
+    }
+    b {
+        color: #000;
+    }
+}
+
+.quiz-50 {
+    .content {
+        strong {
+            color: #000;
+            text-transform: capitalize;
+        }
+        .bottom-btn.cus-btn {
+            button {
+                text-align: center;
+                margin: 0;
+                font-size: 18px;
+                padding: 12px 0px;
+            }
+        }
+    }
+    .cus-btn {
+        text-align: center;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    b {
+        color: #000;
+    }
+}
+
+.full-screen.grid-row.quiz-56-keeping-job {
+    .content {
+        ol {
+            padding-left: 30px;
+        }
     }
 }
 

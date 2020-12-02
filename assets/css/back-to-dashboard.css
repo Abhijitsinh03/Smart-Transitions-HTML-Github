@@ -1,5 +1,4 @@
 .gray-page-title {
-  
   padding: 2.1875rem 3.125rem;
   font-family: "ProximaNova-Semibold";
   font-size: 1rem;
@@ -45,7 +44,8 @@
         height: 40.625rem; }
       .full-screen.grid-row .content .custom-scroll {
         height: 27.1rem; }
-      .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+      .full-screen.grid-row .content .book,
+      .full-screen.grid-row .content .document {
         display: block;
         padding: 0.9375rem 0;
         font-family: "ProximaNova-Light";
@@ -53,7 +53,8 @@
         color: #707070;
         background-color: #ffffff;
         z-index: 11; }
-        .full-screen.grid-row .content .book:before, .full-screen.grid-row .content .document:before {
+        .full-screen.grid-row .content .book:before,
+        .full-screen.grid-row .content .document:before {
           display: inline-block;
           vertical-align: middle;
           width: 1.625rem;
@@ -344,6 +345,12 @@ p.description {
   .form-preview p {
     padding-bottom: 0; }
 
+.full-screen.grid-row .image-quiz-contain {
+  background-size: contain; }
+
+.full-screen.grid-row .image-quiz-postion {
+  background-position: unset; }
+
 @media screen and (min-width: 120rem) {
   .full-screen.grid-row .content .custom-scroll {
     height: calc(100vh - 505px); } }
@@ -418,7 +425,8 @@ p.description {
       .full-screen.grid-row .content .custom-scroll {
         height: auto;
         padding-right: 0; }
-      .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+      .full-screen.grid-row .content .book,
+      .full-screen.grid-row .content .document {
         top: 0 !important;
         padding: 0.625rem 0; }
       .full-screen.grid-row .content h2 {
@@ -431,19 +439,19 @@ p.description {
         padding-left: 1.25rem; } }
 
 @media screen and (min-width: 48rem) {
-  .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+  .full-screen.grid-row .content .book,
+  .full-screen.grid-row .content .document {
     position: static !important; } }
 
 @media screen and (max-width: 47.9375rem) {
   .form-preview .quiz-ans {
     flex: 0 0 100%;
     max-width: 100%; }
-    .full-screen.grid-row .content p input {
-      width:8rem;
-  }
   .form-preview.style-two .quiz-ans {
     flex: 0 0 100%;
     max-width: 100%; }
+  .full-screen.grid-row .content p input {
+    width: 8rem; }
   .full-screen.grid-row .image-block {
     min-height: 49.375rem; }
   .full-screen.grid-row .content {
@@ -475,14 +483,6 @@ p.description {
     padding-bottom: 8px; } }
 
 @media screen and (max-width: 35.9375rem) {
-  .full-screen.grid-row .content .custom-heading ul li {
-    font-size: 18px;
-}
-.full-screen.grid-row .content .custom-heading ul li:before {
-  top: 8px;
-  width: 8px;
-  height: 8px;
-}
   .gray-page-title {
     padding: 1.25rem 0.9375rem;
     font-size: 0.9375rem; }
@@ -494,13 +494,21 @@ p.description {
     min-height: 26.25rem; }
   .full-screen.grid-row .content {
     padding: 1.875rem 0.9375rem; }
-    .full-screen.grid-row .content .book, .full-screen.grid-row .content .document {
+    .full-screen.grid-row .content .book,
+    .full-screen.grid-row .content .document {
       position: relative;
       padding-left: 32px; }
-      .full-screen.grid-row .content .book:before, .full-screen.grid-row .content .document:before {
+      .full-screen.grid-row .content .book:before,
+      .full-screen.grid-row .content .document:before {
         position: absolute;
         top: 8px;
         left: 0; }
+    .full-screen.grid-row .content .custom-heading ul li {
+      font-size: 18px; }
+      .full-screen.grid-row .content .custom-heading ul li:before {
+        top: 8px;
+        width: 8px;
+        height: 8px; }
     .full-screen.grid-row .content h2 {
       padding-bottom: 0.625rem;
       font-size: 1.5rem; }

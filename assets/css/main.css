@@ -458,24 +458,15 @@ span.document:before,
   display: inline-flex;
   font-weight: bold;
   font-size: 21px;
-  /* margin-right: 36px; */ }
-
-.quiz-40-my-life .get-head span {
-  margin-right: 10px; }
-
-.quiz-40-my-life .get-head form .form-group label {
-  font-weight: bold;
-  color: #000; }
-
-.quiz-40-my-life .custom-scroll ol {
-  margin-left: 50px !important; }
-
-.quiz-40-my-life .get-head {
   margin-left: 20px; }
-
-.quiz-40-my-life .get-head form .form-group.checkbox-wrap label {
-  padding-left: 35px;
-  text-transform: capitalize; }
+  .quiz-40-my-life .get-head form .form-group.checkbox-wrap label {
+    padding-left: 35px;
+    text-transform: capitalize; }
+  .quiz-40-my-life .get-head form .form-group label {
+    font-weight: bold;
+    color: #000; }
+  .quiz-40-my-life .get-head span {
+    margin-right: 10px; }
 
 .quiz-40-my-life .lower label {
   text-transform: capitalize; }
@@ -483,12 +474,59 @@ span.document:before,
 .quiz-40-my-life ol.lower form .form-group label {
   text-transform: capitalize; }
 
+.quiz-40-my-life .custom-scroll ol {
+  margin-left: 50px !important; }
+
 .quiz-40-my-life .custom-scroll ol.new-ol-1 {
   margin: 0 !important; }
 
 .quiz-40-my-life .content ol.new-ol-1 li input {
   width: 100% !important;
   height: 2rem; }
+
+.quiz-40-my-life .get-head.new-get-head {
+  width: 100%;
+  margin: 0; }
+  .quiz-40-my-life .get-head.new-get-head form {
+    width: 100%; }
+    .quiz-40-my-life .get-head.new-get-head form .form-group.checkbox-wrap {
+      display: flex; }
+      .quiz-40-my-life .get-head.new-get-head form .form-group.checkbox-wrap label {
+        display: flex;
+        max-width: 22%;
+        float: left;
+        width: 100%; }
+        .quiz-40-my-life .get-head.new-get-head form .form-group.checkbox-wrap label input {
+          max-width: 82%;
+          box-sizing: border-box;
+          float: left;
+          width: 100%;
+          font-family: "OpenSans-Light";
+          font-size: 1.125rem;
+          color: #333333;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom-width: 1px; }
+
+.quiz-40-my-life .content ol.lower li input {
+  width: 100%; }
+
+.quiz-40-my-life .content .bottom-btn.cus-btn button {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  padding: 12px 0px; }
+
+.quiz-40-my-life .cus-btn {
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0px; }
+
+.quiz-40-my-life .new-40 h2 {
+  margin-top: 20px; }
 
 .quiz-41-my-life .cus-btn {
   text-align: center;
@@ -508,6 +546,47 @@ span.document:before,
 
 .full-screen.grid-row.quiz-55-part-time .image-block {
   background-size: unset; }
+
+.full-screen.grid-row.quiz-65 .get-head {
+  display: inline-flex;
+  font-size: 18px;
+  margin-left: 20px; }
+  .full-screen.grid-row.quiz-65 .get-head span {
+    margin-right: 10px; }
+
+.full-screen.grid-row.quiz-65 .box1.new-box-1 {
+  padding: 0.625rem 0.9375rem;
+  border: 2px solid #234b7e;
+  margin-bottom: 25px; }
+
+.full-screen.grid-row.quiz-65 .box1 .image-block {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 423px; }
+
+.full-screen.grid-row.quiz-65 .content .bottom-btn.cus-btn {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .full-screen.grid-row.quiz-65 .content .bottom-btn.cus-btn button {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    padding: 12px 0px; }
+  .full-screen.grid-row.quiz-65 .content .bottom-btn.cus-btn .btn {
+    margin-bottom: 25px;
+    margin-top: 0; }
+
+.full-screen.grid-row.quiz-65 .cus-btn {
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px 0px; }
 
 .grid-col-6:nth-child(2) {
   -ms-grid-column: 2;
@@ -624,6 +703,33 @@ span.document:before,
 
 .full-screen.grid-row.quiz-56-keeping-job .content ol {
   padding-left: 30px; }
+
+.full-screen.grid-row.quiz-61 .image-block.sub-img {
+  height: 200px;
+  width: 100%;
+  background-size: contain;
+  text-align: left;
+  background-position: left;
+  margin: 20px 0px;
+  display: block;
+  min-height: auto; }
+
+.full-screen.grid-row.quiz-63 .image-block.sub-img-main {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  text-align: left;
+  background-position: left;
+  margin: 20px 0px;
+  display: block;
+  min-height: auto; }
+
+.bottom-btn.cus-btn .btn-publish {
+  min-width: 100% !important; }
+
+.custom-scroll ul li h4 {
+  /* margin-bottom: 0; */
+  padding: 0; }
 
 .grid-col-4:nth-child(2) {
   -ms-grid-column: 2;
@@ -2350,5 +2456,31 @@ body.model-open {
     margin-left: 0px; }
   .quiz-39-word ol.lower form .form-group label {
     padding-top: 0px; }
-  .quiz-40-my-life ol.lower form .form-group label {
-    padding-top: 0px; } }
+  .full-screen.grid-row.quiz-40-my-life ol.lower form .form-group label {
+    padding-top: 0px; }
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap {
+    display: block; }
+    .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap input {
+      max-width: 100%; }
+    .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap label {
+      max-width: 100%; } }
+
+@media (max-width: 1920px) and (min-width: 1800px) {
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap label {
+    max-width: 20%; } }
+
+@media (max-width: 1500px) {
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap label {
+    max-width: 30%; }
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap input {
+    max-width: 75%; } }
+
+@media (max-width: 1200px) {
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap label {
+    max-width: 34%; } }
+
+@media (max-width: 1024px) {
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap input {
+    max-width: 80%; }
+  .full-screen.grid-row.quiz-40-my-life .content .get-head.new-get-head form .form-group.checkbox-wrap label {
+    max-width: 20%; } }

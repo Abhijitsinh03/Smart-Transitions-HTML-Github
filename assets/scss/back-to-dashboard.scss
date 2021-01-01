@@ -286,7 +286,7 @@
                         height: 8.125rem;
                         font-family: $light-font;
                         font-size: $font-16;
-                        color: #a3a3a3;
+                        color: #707070;
                     }
                     &.radio-wrap {
                         display: $d-inline;
@@ -475,6 +475,17 @@ p {
     }
 }
 
+.full-screen.grid-row {
+	.content {
+		ol {
+			padding-left: 20px;
+			padding-bottom: 10px;
+			margin: 0;
+			font-weight: 800;
+		}
+	}
+}
+
 @media screen and (min-width: 120rem) {
     .full-screen {
         &.grid-row {
@@ -584,6 +595,9 @@ p {
                 }
             }
         }
+    }
+    .full-screen.grid-row.quiz-37-my-job {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
 
